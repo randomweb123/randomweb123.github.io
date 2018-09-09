@@ -1,6 +1,6 @@
 #navbar {
     background-color: #232931;
-    font-family: Consolas, monaco, monospace;
+    font-family: "Open Sans", Helvetica, sans-serif;
     text-align: center;
     position: sticky;
     height: auto;
@@ -18,7 +18,7 @@
     padding: 10px 20px
 }
 
-#navbar ul #item a {
+#navbar ul li a {
     text-decoration: none;
     color: white 
 }
@@ -26,26 +26,6 @@
 #navbar ul #item a:hover {
     text-decoration: underline;
     color: #bbb
-}
-
-#discord {
-    text-decoration: none;
-    color: #7289DA
-}
-
-#discord:hover {
-    color: #7684b6;
-    text-decoration: underline
-}
-
-#twitch {
-    color: #714bb8;
-    text-decoration: none;
-}
-
-#twitch:hover {
-    color: #8255d4;
-    text-decoration: underline
 }
 
 #current {
