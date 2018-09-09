@@ -1,0 +1,85 @@
+#navbar {
+    background-color: #232931;
+    font-family: Consolas, monaco, monospace;
+    text-align: center;
+    position: sticky;
+    height: auto;
+    top: 0
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 10px 20px
+}
+
+#navbar ul #item a {
+    text-decoration: none;
+    color: white 
+}
+
+#navbar ul #item a:hover {
+    text-decoration: underline;
+    color: #bbb
+}
+
+#discord {
+    text-decoration: none;
+    color: #7289DA
+}
+
+#discord:hover {
+    color: #7684b6;
+    text-decoration: underline
+}
+
+#twitch {
+    color: #714bb8;
+    text-decoration: none;
+}
+
+#twitch:hover {
+    color: #8255d4;
+    text-decoration: underline
+}
+
+#current {
+    background-color: #393e46;
+    color: white
+}
+
+#footer {
+    background-color: #232931;
+    position: fixed;
+    height: auto;
+    width: 100%;
+    bottom: 0
+}
+
+#footer i {
+    color: white;
+    padding: 5px;
+    float: left
+}
+
+#copy {
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    float: right
+}
+
+@media only screen and (max-width: 1000px) {
+    #footer * {
+        font-size: 10px
+    }
+
+    #navbar * {
+        height: auto
+    }
+}
