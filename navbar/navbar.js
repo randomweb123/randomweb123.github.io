@@ -1,7 +1,5 @@
 var items = [
-    ["Home", "/"], 
-    ["Games", "/game.html"], 
-    ["Projects", "/projects.html"]
+    ["Social OnLine", "/"]
 ];
 
 var navbar = document.getElementById("navbar");
@@ -20,16 +18,6 @@ for (var i = 0; i < items.length; i++) {
         li.setAttribute("id", "item");
     }
 
-    if (items[i][0] == "Discord") {
-        a.setAttribute("target", "_blank");
-        li.setAttribute("id", "discord");
-        a.setAttribute("id", "discord");
-    } else if (items[i][0] == "Twitch") {
-        a.setAttribute("target", "_blank");
-        li.setAttribute("id", "twitch");
-        a.setAttribute("id", "twitch");
-    }
-
     a.setAttribute("href", items[i][1]);
     a.innerHTML = items[i][0];
 
@@ -38,7 +26,7 @@ for (var i = 0; i < items.length; i++) {
 }
 
 var footerItems = [
-    ["Copyright © Logan Houston & Luke Whrit 2018", "", true]
+    ["Copyright © DualKeys 2018", "", true]
 ];
 
 
